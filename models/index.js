@@ -6,7 +6,7 @@ const config = require('../config.json');
 module.exports = () => {
     console.log(process.env.NODE_ENV);
     let dbConfig = config.db['development'];
-
+//dfrg
     if (process.env.NODE_ENV == 'production')
     {
         console.log('production');
